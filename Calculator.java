@@ -15,11 +15,6 @@ public class Calculator {
         System.out.println("Addition: " + sum);
         System.out.println("Subtraction: " + sub);
         System.out.println("Multiplication: " + mul);
-        if (num2 != 0) {
-            System.out.println("Division: " + div);
-        } else {
-            System.out.println("Division: Cannot divide by zero");
-        }
         sc.close();
     }
 }
